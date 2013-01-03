@@ -409,7 +409,9 @@
 				GCC_PREFIX_HEADER = "AFNetworking/AFNetworking-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/AFNetworking;
 				PRODUCT_NAME = AFNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/AFNetworking;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -422,7 +424,9 @@
 				GCC_PREFIX_HEADER = "AFNetworking/AFNetworking-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/AFNetworking;
 				PRODUCT_NAME = AFNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/AFNetworking;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
